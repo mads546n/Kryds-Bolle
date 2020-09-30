@@ -24,5 +24,5 @@ LOGBOG:
 Selve kodningsprocessen er ikke startet endnu, men vi har diskuteret frem og tilbage i gruppen, hvordan vi vil designe spillet overalt, og hvordan vi vil designe hvert vores individuelle spil, så det står ud fra de andre. Vi har lavet research og fundet inspiration til, hvordan og hvorledes vi kan designe spillet. Vi har fundet andre eksempler på kryds-og-bolle-spil, som er lavet med Javascript, da vores gerne selv skal kodes i Javascript. 
 Vi har sørget for, at alle har fået godkendt adgang til repository, og vi har koblet vores repository til GitHub-desktop-appen. 
 
-- (30-09-2020)
+ian - (30-09-2020)
 jeg har fået lavet et produkt færdigt hvor den selv laver kryds og bolle for at tjekke om det virker. til næste gang vil jeg gerne lave så der er 2 spillere der laver kryds og bolle istedet for at den selv laver det
