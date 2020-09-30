@@ -23,3 +23,6 @@ LOGBOG:
  - (28-09-2020)
 Selve kodningsprocessen er ikke startet endnu, men vi har diskuteret frem og tilbage i gruppen, hvordan vi vil designe spillet overalt, og hvordan vi vil designe hvert vores individuelle spil, så det står ud fra de andre. Vi har lavet research og fundet inspiration til, hvordan og hvorledes vi kan designe spillet. Vi har fundet andre eksempler på kryds-og-bolle-spil, som er lavet med Javascript, da vores gerne selv skal kodes i Javascript. 
 Vi har sørget for, at alle har fået godkendt adgang til repository, og vi har koblet vores repository til GitHub-desktop-appen. 
+
+ - (30-09-2020)
+ Kodningsprocessen er begyndt. Jeg har draget inspiration fra The Coding Train, og kodningsprocessen nærmer sig halvvejspunktet. Jeg har opstillet et kryds-og-bolle-bræt og felter, som alle kan udfyldes af enten et "X" eller et "O". Jeg har også opstilt 2 forskellige spillere, som skiftes mellem at spille spillet. Næste gang skal jeg lave knapper eller gøre det muligt for spillerne at trykke på et bestemt felt og indsætte deres valgte symbol: (X, O). Jeg skal også have lavet en funktion, som kan udpege vinderen, taberen og evt., hvis spillet er uafgjort. 
