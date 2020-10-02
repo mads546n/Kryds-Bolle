@@ -29,8 +29,8 @@ Vi har sørget for, at alle har fået godkendt adgang til repository, og vi har 
  
   - (02-10-2020)
  Kodningsprocessen fortsætter. Jeg har gjort fremskridt med koden i dag, og jeg har indført følgende: 
- - En funktion som undersøger vinderen af runden, som består af et horisontalt og vertikalt tjek af brættet vha. if statements. 
- - En funktion ("naestetur") som beskriver tilstanden og forholdene, som næste tur skal overholde. 
- - En funktion ("mousepressed") som gør det muligt, at spillet spiller sig selv ved at klikke hvilket som helst sted på canvas med mouse-cursor. 
- - To variabler ("nuvaerendespiller") og ("available") som beskriver den nuværende spiller i spillet og hvilke "ledige" felter, der er tilgængelige.
+   En funktion som undersøger vinderen af runden, som består af et horisontalt og vertikalt tjek af brættet vha. if statements. 
+   En funktion ("naestetur") som beskriver tilstanden og forholdene, som næste tur skal overholde. 
+   En funktion ("mousepressed") som gør det muligt, at spillet spiller sig selv ved at klikke hvilket som helst sted på canvas med mouse-cursor. 
+   To variabler ("nuvaerendespiller") og ("available") som beskriver den nuværende spiller i spillet og hvilke "ledige" felter, der er tilgængelige.
  Næste gang skal jeg meget gerne have færdiggjort disse funktioner. Hvis der er tid nok, vil jeg gerne færdiggøre en automatiseret og selvstændig version af spillet, hvor jeg    næste gang igen vil gøre spillet interaktivt, så man enten spiller mod en AI eller en anden spiller.
