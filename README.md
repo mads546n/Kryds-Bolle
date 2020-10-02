@@ -23,3 +23,6 @@ LOGBOG:
  - (28-09-2020)
 Selve kodningsprocessen er ikke startet endnu, men vi har diskuteret frem og tilbage i gruppen, hvordan vi vil designe spillet overalt, og hvordan vi vil designe hvert vores individuelle spil, så det står ud fra de andre. Vi har lavet research og fundet inspiration til, hvordan og hvorledes vi kan designe spillet. Vi har fundet andre eksempler på kryds-og-bolle-spil, som er lavet med Javascript, da vores gerne selv skal kodes i Javascript. 
 Vi har sørget for, at alle har fået godkendt adgang til repository, og vi har koblet vores repository til GitHub-desktop-appen. 
+
+-  (02-10-2020) Asger D.
+Jeg har leget lidt rundt med DOM og prøvede at lave en lommeregner ud fra forskellige inputs in HTML. Herunder et button input, hvor jeg bruger onclick="minFunktion()". Jeg trænede forskellige inputs, og prøvede at finde en lettere løsning til udviklingen af spillet og/eller lommeregneren. Asger skriver på denne logbog, da der er tekniske fejl med Github.
