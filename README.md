@@ -26,3 +26,11 @@ Vi har sørget for, at alle har fået godkendt adgang til repository, og vi har 
 
  - (30-09-2020)
  Kodningsprocessen er begyndt. Jeg har draget inspiration fra The Coding Train, og kodningsprocessen nærmer sig halvvejspunktet. Jeg har opstillet et kryds-og-bolle-bræt og felter, som alle kan udfyldes af enten et "X" eller et "O". Jeg har også opstilt 2 forskellige spillere, som skiftes mellem at spille spillet. Næste gang skal jeg lave knapper eller gøre det muligt for spillerne at trykke på et bestemt felt og indsætte deres valgte symbol: (X, O). Jeg skal også have lavet en funktion, som kan udpege vinderen, taberen og evt., hvis spillet er uafgjort. Jeg har uploadet mine filer: "index.html" og "sketch.js" lokalt vha. GitHub-desktop-appen og derefter uploadet filerne til GitHub-hjemmesiden. Jeg har også uploadet P5-libraries filerne individuelt, da det ikke var muligt at uploade dem samlet i en folder. Jeg har også ændret navnet for min individuelle version af spillet til "Tic-Tac-Toe" i stedet for "Kryds-Bolle", så det er nemmere at udpege fra de andre versioner. De andre medlemmer af gruppen ændrer også navnet på deres version. 
+ 
+  - (02-10-2020)
+ Kodningsprocessen fortsætter. Jeg har gjort fremskridt med koden i dag, og jeg har indført følgende: 
+ - En funktion som undersøger vinderen af runden, som består af et horisontalt og vertikalt tjek af brættet vha. if statements. 
+ - En funktion ("naestetur") som beskriver tilstanden og forholdene, som næste tur skal overholde. 
+ - En funktion ("mousepressed") som gør det muligt, at spillet spiller sig selv ved at klikke hvilket som helst sted på canvas med mouse-cursor. 
+ - To variabler ("nuvaerendespiller") og ("available") som beskriver den nuværende spiller i spillet og hvilke "ledige" felter, der er tilgængelige.
+ Næste gang skal jeg meget gerne have færdiggjort disse funktioner. Hvis der er tid nok, vil jeg gerne færdiggøre en automatiseret og selvstændig version af spillet, hvor jeg    næste gang igen vil gøre spillet interaktivt, så man enten spiller mod en AI eller en anden spiller.
