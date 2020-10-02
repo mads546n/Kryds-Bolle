@@ -26,3 +26,7 @@ Vi har sørget for, at alle har fået godkendt adgang til repository, og vi har 
 
  - (30-09-2020)
  Vi har opstilt et nyt system på vores GitHub, som skal gøre det nemmere og simplere at holde styr på, hvor meget vi hver især har lavet. Det gør det også simplere for os at uploade vores egne filer et enkelt sted, så det ikke blandes med andre filer, som ikke relaterer til vores individuelle versioner. Vi har lavet 3 nye branches: "Mads", "Asger D." og "Ian". Disse branches indeholder hver vores version af spillet og en individuel README-fil. Her uploader vi vores egne spil og filer samt skriver vores egen Logbog. README-filen er den samme fra "master"-branchen, men fremtidig redigering vises kun i vores individuelle README-filer. De logbøger skal bruges til at fortælle, hvad man hver især har lavet, og hvad man gerne vil lave videre næste gang. Den samlede README-fil i "master"-brancen bruges til at drage fælles logbog, om hvor langt gruppen er nået som helhed, og hvad vi har gjort fælles for at løse opgaven. 
+ 
+  - (02-10-2020)
+  Kodningsprocessen fortsætter, og vi har allesammen gjort fremskridt hver for sig og hjulpet hinanden. Vi har evalueret hinandens projekter og tjekket, hvor langt vi hver især er nået. Vi har også diskuteret, hvad vi skal lave og helst have lavet færdigt næste gang.  
+Asger har ikke adgang til GitHub i øjeblikket, så derfor er han en smule bagud på logbog. Asger opdaterer sin logbog så hurtigt som muligt, når det bliver muligt for ham at få adgang til hans GitHub. 
