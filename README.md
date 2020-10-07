@@ -26,3 +26,6 @@ Vi har sørget for, at alle har fået godkendt adgang til repository, og vi har 
 
 -  (02-10-2020) Asger D.
 Jeg har leget lidt rundt med DOM og prøvede at lave en lommeregner ud fra forskellige inputs in HTML. Herunder et button input, hvor jeg bruger onclick="minFunktion()". Jeg trænede forskellige inputs, og prøvede at finde en lettere løsning til udviklingen af spillet og/eller lommeregneren. Asger skriver på denne logbog, da der er tekniske fejl med Github.
+
+-  (07-10-2020)
+Jeg har arbejdet meget med Html og DOM. I dag har jeg lavet nogle button inputs, som man kan bruge til at indtaste tal til regning. Jeg har committed min process indtil videre.
