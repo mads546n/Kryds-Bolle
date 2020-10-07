@@ -10,6 +10,7 @@ let available = [];
 
 function setup() {
     createCanvas(400, 400);
+    frameRate(2);
     nuvaerendeSpiller = floor(random(spiller.length)); 
     for (let j = 0; j < 3; j++) {
         for (let i = 0; i < 3; i++) {
@@ -18,25 +19,41 @@ function setup() {
     }
 }
 
+function equal3(a, b, c) {
+    return (a==b && b==c && a != ""); 
+}
+
 function checkVinder() {
     let vinder = null; 
 
     // horisontalt tjek
     for (let i = 0; i < 3; i++) {
-        if (braet[i][0] == braet[i][1] == braet[i][2]) {
+        if (equal3(braet[i][0], braet[i][1], braet[i][2])) {
             vinder = braet[i][0];
         }
     }
 
     // vertikalt tjek
     for (let i = 0; i < 3; i++) {
-        if (braet[0][i] == braet[0][i] == braet[0][i]) {
+        if (equal3(braet[0][i], braet[1][i], braet[2][i])) {
             vinder = braet[0][i];
         }
     }
+
+    // diagonalt tjek
+    if (equal3(braet[0][0], braet[1][1], braet[2][2])) {
+        vinder = braet[0][0]; 
+    }
+
+    // 2. diagonalt tjek
+    if (equal3(braet[2][0], braet[1][1], braet[0][2])) {
+        vinder = braet[2][0]; 
+    }
    
-    if (available.length == 0) {
-        console.log("uafgjort");
+    if (vinder == null && available.length == 0) {
+        return "uafgjort"; 
+    } else {
+        return vinder; 
     }
 }
 
@@ -53,9 +70,6 @@ function naesteTur() {
 //    naesteTur();
 //}
 
-function mousePressed() {
-    naesteTur(); 
-}
 function draw() {
     background(255);
     let w = width / 3;
@@ -85,6 +99,12 @@ function draw() {
             }
             //text(felt, x, y)
         }
-        naesteTur();
-        checkVinder();
-    }
+        let result = checkVinder();
+        if (result != null) {
+            noLoop();
+            //createP((result).style('color','#FFF').style('font-size','32pt'));
+            console.log(result);
+        } else {
+            naesteTur();
+        }
+   }
