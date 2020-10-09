@@ -29,3 +29,6 @@ Jeg har leget lidt rundt med DOM og prøvede at lave en lommeregner ud fra forsk
 
 -  (07-10-2020)
 Jeg har arbejdet meget med Html og DOM. I dag har jeg lavet nogle button inputs, som man kan bruge til at indtaste tal til regning. Jeg har committed min process indtil videre.
+
+-  (09-10-2020)
+I dag har jeg stort set færdiggjort lommeregneren. Den kan bruges til de mest basale matematiske udregninger (+, -, * og /). Nu mangler jeg bare at få linket lommeregneren sammen med de andre programmer (kryds og bolle spillet).
