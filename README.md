@@ -20,17 +20,20 @@ Spillet skal designes vha. HTML, Javascript, P5 mm.
 
 LOGBOG: 
 
- - (28-09-2020)
+ - (28-09-2020) Mads
 Selve kodningsprocessen er ikke startet endnu, men vi har diskuteret frem og tilbage i gruppen, hvordan vi vil designe spillet overalt, og hvordan vi vil designe hvert vores individuelle spil, så det står ud fra de andre. Vi har lavet research og fundet inspiration til, hvordan og hvorledes vi kan designe spillet. Vi har fundet andre eksempler på kryds-og-bolle-spil, som er lavet med Javascript, da vores gerne selv skal kodes i Javascript. 
 Vi har sørget for, at alle har fået godkendt adgang til repository, og vi har koblet vores repository til GitHub-desktop-appen. 
 
- - (30-09-2020)
- Kodningsprocessen er begyndt. Jeg har draget inspiration fra The Coding Train, og kodningsprocessen nærmer sig halvvejspunktet. Jeg har opstillet et kryds-og-bolle-bræt og felter, som alle kan udfyldes af enten et "X" eller et "O". Jeg har også opstilt 2 forskellige spillere, som skiftes mellem at spille spillet. Næste gang skal jeg lave knapper eller gøre det muligt for spillerne at trykke på et bestemt felt og indsætte deres valgte symbol: (X, O). Jeg skal også have lavet en funktion, som kan udpege vinderen, taberen og evt., hvis spillet er uafgjort. Jeg har uploadet mine filer: "index.html" og "sketch.js" lokalt vha. GitHub-desktop-appen og derefter uploadet filerne til GitHub-hjemmesiden. Jeg har også uploadet P5-libraries filerne individuelt, da det ikke var muligt at uploade dem samlet i en folder. Jeg har også ændret navnet for min individuelle version af spillet til "Tic-Tac-Toe" i stedet for "Kryds-Bolle", så det er nemmere at udpege fra de andre versioner. De andre medlemmer af gruppen ændrer også navnet på deres version. 
+ - (30-09-2020) Mads
+Kodningsprocessen er begyndt. Jeg har draget inspiration fra The Coding Train, og kodningsprocessen nærmer sig halvvejspunktet. Jeg har opstillet et kryds-og-bolle-bræt og felter, som alle kan udfyldes af enten et "X" eller et "O". Jeg har også opstilt 2 forskellige spillere, som skiftes mellem at spille spillet. Næste gang skal jeg lave knapper eller gøre det muligt for spillerne at trykke på et bestemt felt og indsætte deres valgte symbol: (X, O). Jeg skal også have lavet en funktion, som kan udpege vinderen, taberen og evt., hvis spillet er uafgjort. Jeg har uploadet mine filer: "index.html" og "sketch.js" lokalt vha. GitHub-desktop-appen og derefter uploadet filerne til GitHub-hjemmesiden. Jeg har også uploadet P5-libraries filerne individuelt, da det ikke var muligt at uploade dem samlet i en folder. Jeg har også ændret navnet for min individuelle version af spillet til "Tic-Tac-Toe" i stedet for "Kryds-Bolle", så det er nemmere at udpege fra de andre versioner. De andre medlemmer af gruppen ændrer også navnet på deres version. 
  
-  - (02-10-2020)
- Kodningsprocessen fortsætter. Jeg har gjort fremskridt med koden i dag, og jeg har indført følgende: 
+  - (02-10-2020) Mads
+Kodningsprocessen fortsætter. Jeg har gjort fremskridt med koden i dag, og jeg har indført følgende: 
    En funktion som undersøger vinderen af runden, som består af et horisontalt og vertikalt tjek af brættet vha. if statements. 
    En funktion ("naestetur") som beskriver tilstanden og forholdene, som næste tur skal overholde. 
    En funktion ("mousepressed") som gør det muligt, at spillet spiller sig selv ved at klikke hvilket som helst sted på canvas med mouse-cursor. 
    To variabler ("nuvaerendespiller") og ("available") som beskriver den nuværende spiller i spillet og hvilke "ledige" felter, der er tilgængelige.
- Næste gang skal jeg meget gerne have færdiggjort disse funktioner. Hvis der er tid nok, vil jeg gerne færdiggøre en automatiseret og selvstændig version af spillet, hvor jeg    næste gang igen vil gøre spillet interaktivt, så man enten spiller mod en AI eller en anden spiller.
+Næste gang skal jeg meget gerne have færdiggjort disse funktioner. Hvis der er tid nok, vil jeg gerne færdiggøre en automatiseret og selvstændig version af spillet, hvor jeg    næste gang igen vil gøre spillet interaktivt, så man enten spiller mod en AI eller en anden spiller.
+
+ - (07-10-2020) Mads
+Kodningsprocessen fortsætter endnu igen, og jeg har færdiggjort funktionerne fra sidste gang. Jeg har færdiggjort funktionen ("checkVinder") og har indført yderligere diagonale check af brættet. Jeg har også opstilt en ny funktion ("equal3"). Jeg har også indført en ny variabel ("result"), som skal bruges til at udpege en vinder af spillet. Spillet kan nu spille sig selv og udpege en vinder, eller om spillet er uafgjort. Næste gang vil jeg gerne gøre det muligt at se vinderen på selve canvas, når spillet er afsluttet i stedet for i consol. Jeg vil også gerne gøre det muligt for en spiller at spille mod en AI i stedet for, at spillet spiller mod sig selv, hvis der er afgivet nok tid til det. 
