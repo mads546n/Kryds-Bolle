@@ -32,4 +32,7 @@ Vi har sørget for, at alle har fået godkendt adgang til repository, og vi har 
 Asger har ikke adgang til GitHub i øjeblikket, så derfor er han en smule bagud på logbog. Asger opdaterer sin logbog så hurtigt som muligt, når det bliver muligt for ham at få adgang til hans GitHub. 
 
  - (07-10-2020) (Fælles)
-Kodningsprocessen fortsætter nu igen, og alle medlemmer af gruppen har gjort fremskridt i egen kode. Vi nærmer os færdiggørelsen af vores projekter, og vi hjælper fortsat hinanden. Når vores projekter er færdiggjorte, så vil vi samle alle vores projekter i et samlet projekt i stedet for at merge vores individuelle branches på GitHub. Vi vil lave en side, som indeholder 3 knapper, som hver især videresender brugeren til vores forskellige projekter afhængigt af, hvilken knap der trykkes på. Asger har fået adgang til sin GitHub og fører nu egen logbog fremover samt uploader filer til hans projekt og laver comits i egen branch. 
+Kodningsprocessen fortsætter nu igen, og alle medlemmer af gruppen har gjort fremskridt i egen kode. Vi nærmer os færdiggørelsen af vores projekter, og vi hjælper fortsat hinanden. Når vores projekter er færdiggjorte, så vil vi samle alle vores projekter i et samlet projekt i stedet for at merge vores individuelle branches på GitHub. Vi vil lave en side, som indeholder 3 knapper, som hver især videresender brugeren til vores forskellige projekter afhængigt af, hvilken knap der trykkes på. Asger har fået adgang til sin GitHub og fører nu egen logbog fremover samt uploader filer til hans projekt og laver comits i egen branch.
+
+-  (09-10-2020) (Fælles)
+Vi har lavet en ny branch, hvor vi sammenfletter vores produkter i én folder, hvor de til sidst skal linkes til hinanden.
