@@ -4,19 +4,17 @@ let braet = [
 ['','',''],
 ];
 
-let spiller = ['X', 'O'];
-let nuvaerendeSpiller;
-let available = []; 
+let w; 
+let h; 
+
+let ai = 'X'; 
+let human = 'O';
+let nuvaerendeSpiller = human; 
 
 function setup() {
     createCanvas(400, 400);
-    frameRate(2);
-    nuvaerendeSpiller = floor(random(spiller.length)); 
-    for (let j = 0; j < 3; j++) {
-        for (let i = 0; i < 3; i++) {
-            available.push([i, j]); 
-        }
-    }
+    w = width / 3;
+    h = height / 3; 
 }
 
 function equal3(a, b, c) {
@@ -49,31 +47,50 @@ function checkVinder() {
     if (equal3(braet[2][0], braet[1][1], braet[0][2])) {
         vinder = braet[2][0]; 
     }
+
+    let ledigeFelter = 0;
+    for (let i = 0; i < 3; i++) {
+        for (let j = 0; j < 3; j++) {
+            if (braet[i][j] ==''){
+                ledigeFelter++; 
+            }
+        }
+    }
    
-    if (vinder == null && available.length == 0) {
+    if (vinder == null && ledigeFelter == 0) {
         return "uafgjort"; 
     } else {
         return vinder; 
     }
 }
 
-function naesteTur() {
-    let index = floor(random(available.length));
-    let felt = available.splice(index, 1)[0];
-    let i = felt[0];
-    let j = felt[1]; 
-    braet[i][j] = spiller[nuvaerendeSpiller];
-    nuvaerendeSpiller =  (nuvaerendeSpiller + 1) % spiller.length;
-}
+function mousePressed() {
+    if (nuvaerendeSpiller == human) {
+        //Menneskelig spiller
+        let i = floor(mouseX / w);
+        let j = floor(mouseY / h);
+        if (braet[i][j] == '') {
+            braet[i][j] = human; 
+            nuvaerendeSpiller = ai; 
 
-//function mousePressed() {
-//    naesteTur();
-//}
+        //AI-spiller
+        let available = [];
+        for (let k = 0; k < 3; k++) {
+            for (let l = 0; l < 3; l++) {
+                if (braet[k][l] == ''){
+                available.push({ k, l }); 
+                }
+            }
+        }
+        let runde = random(available); 
+        braet[runde.k][runde.l] = ai; 
+        nuvaerendeSpiller = human; 
+        } 
+    }
+}
 
 function draw() {
     background(255);
-    let w = width / 3;
-    let h = height / 3; 
 
     line(w, 0, w, height); 
     line(w*2, 0, w*2, height);
@@ -87,24 +104,20 @@ function draw() {
             let felt = braet[i][j];
             textSize(32);
             strokeWeight(4); 
-            if (felt == spiller[1]) {
+            if (felt == human) {
                 noFill();
                 //ellipseMode(CORNER); 
                 ellipse(x,y,w/2);
-            } else if (felt == spiller[0]) {
+            } else if (felt == ai) {
                 let xr = w/4; 
                 line(x-xr, y-xr, x + xr, y + xr);
                 line(x + xr, y-xr, x-xr, y + xr);
             }
             }
-            //text(felt, x, y)
         }
         let result = checkVinder();
         if (result != null) {
             noLoop();
-            //createP((result).style('color','#FFF').style('font-size','32pt'));
             console.log(result);
-        } else {
-            naesteTur();
-        }
-   }
+        } 
+    }
