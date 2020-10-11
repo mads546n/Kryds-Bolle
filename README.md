@@ -16,6 +16,8 @@ En evt. ekstra ide er, at spillet skal indeholde et "scoreboard", som viser anta
 
 Spillet skal designes vha. HTML, Javascript, P5 mm. 
 
+VIGTIG NOTE: "Project DONE" ER DEN FÆRDIGE UDGAVE!!!!!
+
 
 
 LOGBOG: 
