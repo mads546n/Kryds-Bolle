@@ -26,3 +26,6 @@ Vi har sørget for, at alle har fået godkendt adgang til repository, og vi har 
 
  - (30-09-2020) - ian - 
 jeg har fået lavet et produkt færdigt hvor den selv laver kryds og bolle for at tjekke om det virker. til næste gang vil jeg gerne lave så der er 2 spillere der laver kryds og bolle istedet for at den selv laver det
+
+- (09-10-2020) - ian -
+Jeg har forsøgt at lave en genstart knap, men kan ikke få den til at virke som planglagt så gør bare at knappen genstarter siden
